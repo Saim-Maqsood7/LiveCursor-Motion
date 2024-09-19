@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(42, 142, 165);
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.cursor{
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    /* mix-blend-mode: difference; */
+    /* transition: all linear 0.1s; */
+}
+h1{
+     font-size: 9vw;    /* remember 1 vw is equal to 10px so 9vw means 90px    */
+    font-weight: 900;
+
+}
+
